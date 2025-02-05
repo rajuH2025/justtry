@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justrty - Style Your Story</title>
+    <style>
+        /* Basic CSS Styling - Students should expand on this */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #f0f0f0; /* Example color */
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333; /* Example color */
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Prevents image from affecting layout */
+             margin: 10px auto; /* centers image */
+        }
+        footer {
+            background-color: #333; /* Example color */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Justrty</h1>
+        <nav>
+            <ul>
+                <li><a href="#new-arrivals">New Arrivals</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="new-arrivals">
+            <h2>New Arrivals</h2>
+            <img src="clothing1.jpg" alt="New Arrival 1">
+            <img src="clothing2.jpg" alt="New Arrival 2">
+            <img src="clothing3.jpg" alt="New Arrival 3">
+            <p>Check out our latest styles!</p>
+            <ul>
+              <li>Stylish T-shirts</li>
+              <li>Trendy Jeans</li>
+              <li>Comfortable Hoodies</li>
+            </ul>
+        </section>
+
+        <section id="collections">
+          <h2>Collections</h2>
+          <article>
+            <h3>Summer Collection</h3>
+            <img src="summer1.jpg" alt="Summer Collection Image">
+            <p>Get ready for the summer with our cool and breezy collection.</p>
+          </article>
+          <article>
+            <h3>Winter Collection</h3>
+            <img src="winter1.jpg" alt="Winter Collection Image">
+            <p>Stay warm and stylish this winter.</p>
+          </article>
+        </section>
+
+        <section id="about-us">
+            <h2>About Justrty</h2>
+            <p>Justrty is a clothing brand dedicated to providing high-quality, fashionable clothing for everyone. We believe that everyone should be able to express their unique style through what they wear.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@justrty.com</p>
+            <p>Follow us on: <a href="https://www.instagram.com/justrty" target="_blank">Instagram</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Justrty</p>
+    </footer>
+
+</body>
+</html>
